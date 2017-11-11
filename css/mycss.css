@@ -1,0 +1,260 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+.main {
+	width: 1349px;
+	margin: 0 auto;
+}
+
+.topnav {
+	width: 100%;
+	height: 130px;
+	position: relative;
+}
+
+.topnav>a {
+	float: left;
+	display: inline-block;
+	margin-left: 100px;
+	margin-top: 25px;
+	overflow: hidden;
+}
+
+.navcenter {
+	width: 650px;
+	height: 60px;
+	float: right;
+	margin-top: 50px;
+	margin-right: 130px;
+	overflow: hidden;
+	position: relative;
+}
+
+.navli {
+	float: left;
+	width: 100px;
+	height: 60px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 24px;
+	padding-left: 30px;
+}
+
+.navli>a {
+	color: cornflowerblue;
+}
+
+.navli>a:hover {
+	color: cornflowerblue;
+	padding-bottom: 15px;
+	border-bottom: 2px solid cornflowerblue;
+	opacity: .7;
+}
+
+.lunbo {
+	width: 1349px;
+	height: 400px;
+	position: relative;
+	overflow: hidden;
+}
+
+.lunboul {
+	width: 6745px;
+	height: 400px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.lunboul>li {
+	float: left;
+}
+
+.lunboul>li>img {
+	display: block;
+}
+
+.lunbo>a {
+	width: 50px;
+	height: 100px;
+	display: block;
+	text-align: center;
+	line-height: 100px;
+	position: absolute;
+	top: 50%;
+	margin-top: -50px;
+	font-size: 50px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.prev {
+	left: 0px;
+}
+
+.next {
+	right: 0px;
+}
+
+.lunbool {
+	width: 220px;
+	height: 40px;
+	position: absolute;
+	left: 50%;
+	margin-left:-110px;
+	bottom: 30px;
+}
+
+.lunbool>li {
+	float: left;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	margin: 9px;
+	border: 2px solid forestgreen;
+	opacity: .7;
+	cursor: pointer;
+	text-align: center;
+	line-height: 25px;
+	box-sizing: border-box;
+}
+
+.active {
+	border: none;
+	background-color: slateblue;
+	opacity: .7;
+}
+.textcontent{
+	width: 100%;
+	height: 600px;
+}
+.textcontent1{
+	width: 1200px;
+	height: 600px;
+	margin: 0px auto;
+	text-align: center;
+	
+}
+.textcontent2{
+	line-height: 35px;
+	margin-top: 50px;
+}
+.textcontent2>p:nth-of-type(1){
+	font-size: 30px;
+	color: darkorange;
+}
+.textcontent2>p:nth-of-type(2){
+	font-size: 30px;
+	color: #666;
+	margin:20px;
+}
+.textcontent2>p:nth-of-type(3){
+	font-size: 18px;
+	color: #999;
+}
+.textcontent2>p:nth-of-type(4){
+	font-size: 18px;
+	color: #999;
+
+}
+.textcontentimg{
+	margin-top: 70px;
+}
+.textcontentimg>a>img{
+	display: inline-block;
+	margin: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

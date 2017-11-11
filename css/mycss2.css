@@ -1,0 +1,289 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.navbar-brand>img {
+	width: 200px;
+	margin-left: -20px;
+}
+#mynavH {
+	min-height: 115px;
+}
+#mynavH>.container{
+	position: relative;
+}
+#mynavbar{
+	margin-top:30px ;
+	margin-right: 200px;
+	width:650px;
+	height: 55px;
+}
+#mynavbar>li>a {
+	display: inline-block;
+	text-align: center;
+	padding-top: 45px;
+	padding: 15px 30px;
+	font-size: 20px;
+	color: #007FD5;
+}
+#mynavbar>li>a:hover {
+	border-bottom: 1px solid #007FD5;
+}
+.carousel-inner>.item>img{
+	height: 400px;
+}
+#mysearch{
+	position: absolute;
+	top: -70px;
+	right: -110px;
+}
+#mysearch>#txt{
+	width: 170px;
+	height: 30px;
+}
+#mysearch>#btn{
+	width: 80px;
+	height: 31px;
+}
+#mysearch>.list{
+	width: 170px;
+	/*height: 70px;*/
+	border: 1px solid #F0F0F0;
+	position: absolute;
+	right: 99px;
+	top: 31px;
+	display: none;
+}
+#mysearch>.list>li{
+	text-align: center;
+	list-style: none;
+	
+}
+#mysearch>.list>li>a{
+	width: 170px;
+	line-height: 36px;
+	display: block;
+	color: #000;
+	text-decoration: none;
+	border-bottom: 1px dashed #CCCCCC;
+	background-color: #fff;
+}
+#mysearch>.list>li>a:hover{
+	color: #fff;
+	background-color: #66AFE9;
+}
+#carousel-example-generic {
+	margin: 100px 0;
+	
+}
+.mythumbnail_1{
+	width: 100%;
+	height: 360px;
+	overflow: hidden;
+}
+.mythumbnail_2>.col-sm-6>.thumbnail{
+	border: none;
+}
+.mythumbnail_2>.col-sm-6>.thumbnail>a>img{
+	padding-top: 15px;
+}
+.mythumbnail_2>.col-sm-6>.thumbnail>.caption>h2{
+	color: #70c2ff;
+	margin-bottom: 20px;
+}
+.mythumbnail_2>.col-sm-6>.thumbnail>.caption>p{
+	color: #999;
+	margin: 0 0 5px;
+}
+#programme{
+	background-color: #007FD5; 
+	width: 100%;
+	height: 180px;
+}
+#programme>h2{
+	padding-top:30px;
+	padding-bottom:10px;
+}
+#Exhibition_1{
+	width: 100%;
+	height: 900px;
+	overflow: hidden;
+}
+#Exhibition_2{
+	margin-top: 80px;
+}
+#Exhibition_2>.col-md-6>h2{
+	margin-top: 85px;
+}
+#Exhibition_2>.col-md-6>p:nth-of-type(3){
+	margin-bottom: 150px;
+}
+#Exhibition_2>.col-md-6>hr{
+	height: 1px;
+	background-color: #007FD5;
+}
+#mynavbuttom {
+	min-height: 110px;
+	margin-bottom: 0;
+	margin-top: 50px;
+}
+
+#buttomcopyRight>li>a:hover {
+	border-bottom: 1px solid #000;
+}
+#buttomcopyRight{
+	margin-top: 75px;
+}
+#buttomcopyRight>li>a{
+	padding: 0px 5px;
+	font-size:12px ;
+}
+#mynavbarbuttom{
+	margin-right: -290px;
+}
+#mynavbarbuttom>li>a {
+	padding-top: 35px;
+	font-size: 14px;
+}
+#mynavbarbuttom>li>a:hover {
+	border-bottom: 1px solid #000;
+}
+.Rnav{
+	position: fixed;
+	right: -175px;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 200px;
+	height: 204px;
+	transition: 1s;
+}
+.Rnav:hover{
+	transition: 1s;
+	right: 0px;
+	
+}
+.Rnav>.RnavL{
+	text-align: center;
+	width: 27px;
+	line-height: 24px;
+	background-color: #66AFE9;
+	color: #FFFFFF;
+	border-radius:5px;
+	margin-top: 35px;
+	position: relative;
+	transition: 1s; 
+}
+.Rnav>.RnavL:hover{
+	transform: scale(1.5);
+	transition: 1s;
+	
+}
+.Rnav>.RnavL>span{
+	display: block;
+	width: 21px;
+	height: 25px;
+	margin: 0 auto;
+	background:url(../img/Rlougou1.png) no-repeat -125px 0;
+	
+}
+.Rnav>.RnavR{
+	width: 180px;
+	height: 200px;
+	border: 1px solid #F0F0F0;
+	position: absolute;
+	left: 27px;
+	top: 0px;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+}
+.RnavR1{
+	display:block;
+	text-decoration: none;
+	width: 100%;
+	height: 30px;
+	box-sizing: border-box;
+	margin-left: 10px;
+	text-align: center;
+	line-height: 30px;
+}
+.RnavR1:hover{
+	background-color: #66AFE9;
+	color: #FFFFFF;
+	transition: 1s;
+	transform: scale(1.3);
+}
+.contactname{
+	float: left;
+	margin-left: 5px;
+}
+.RnavR1>.fenxian{
+	float: left;
+}
+.RnavR1:nth-of-type(1){
+	border-bottom: 1px solid #F0F0F0;
+}
+.RnavR1>.fenxianX{
+	float: right;
+}
+.RnavR1>.weixin{
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin-top: 5px;
+	background: url(../img/Rlougou.png) no-repeat -29px 0;
+}
+.RnavR1>.xinlang{
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin-top: 5px;
+	background: url(../img/Rlougou.png) no-repeat -56px 0;
+	
+}
+.RnavR1>.kongjian{
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin-top: 5px;
+	background: url(../img/Rlougou.png) no-repeat -387px 0;
+}
+.RnavR1>.douban{
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin-top: 5px;
+	background: url(../img/Rlougou.png) no-repeat -253px 0;
+	
+}
+.RnavR1>.baidu{
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin-top: 5px;
+	background: url(../img/Rlougou.png) no-repeat -412px 0;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

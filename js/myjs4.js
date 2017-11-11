@@ -1,0 +1,147 @@
+window.onload = function() {
+	var txt = document.getElementById("txt");
+	var btn = document.getElementById("btn");
+	var list = document.getElementsByClassName("list")[0];
+	txt.onkeyup = function() {
+		if(txt.value != "") {
+			var script = document.createElement("script");
+			script.src = "http://suggestion.baidu.com/su?wd=" + txt.value + "&cb=fn"
+			document.body.appendChild(script)
+			list.style.display = "block";
+		} else {
+			list.style.display = "none";
+		}
+	}
+}
+
+function fn(data) {
+	var html = ""
+	var list = document.getElementsByClassName("list")[0];
+	if(data.s.length) {
+		for(var i = 0; i < data.s.length; i++) {
+			html += "<li><a target='_blank' href='https://www.baidu.com/s?wd=" + data.s[i] + "'>" + data.s[i] + "</a></li>"
+		}
+		list.innerHTML = html;
+	} else {
+		list.style.display = "none"
+	}
+}
+$(function(){
+	$("#Exhibition_2 .col-md-6 a img ").hover(function(){
+		$(this).addClass("animated pulse")
+	},function(){
+		$(this).removeClass("animated pulse")
+	})
+	$("#Exhibition_2 .col-md-6 h1").hover(function(){
+		$(this).addClass("animated pulse")
+	},function(){
+		$(this).removeClass("animated pulse")
+	})
+	$("#Exhibition_2 .col-md-6 p ").hover(function(){
+		$(this).addClass("animated pulse")
+	},function(){
+		$(this).removeClass("animated pulse")
+	})
+	$("#thumbnailtitle div h1").hover(function(){
+		$(this).addClass("animated pulse")
+	},function(){
+		$(this).removeClass("animated pulse")
+	})
+	$("#thumbnailtitle div h4").hover(function(){
+		$(this).addClass("animated pulse")
+	},function(){
+		$(this).removeClass("animated pulse")
+	})
+	$("#thumbnailtitle .row .col-sm-6 .thumbnail img").hover(function(){
+		$(this).addClass("animated pulse")
+	},function(){
+		$(this).removeClass("animated pulse")
+	})
+	
+	$("#buttomcopyRight li a").hover(function(){
+		$(this).addClass("animated pulse")
+	},function(){
+		$(this).removeClass("animated pulse")
+	})
+	$("#mynavbarbuttom li a").hover(function(){
+		$(this).addClass("animated pulse")
+	},function(){
+		$(this).removeClass("animated pulse")
+	})
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
